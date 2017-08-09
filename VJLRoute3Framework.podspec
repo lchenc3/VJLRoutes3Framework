@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VJLRoute3Framework"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of VJLRoute3Framework."
+  s.version      = "1.0.0"
+  s.summary      = "VJLRoute3Framework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = ":type => 'MIT'"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   s.resources = "VJLRoutes3.framework/Resources/*.png"
-  s.s.vendored_frameworks = "VJLRoutes3.framework"
+  s.vendored_frameworks = "VJLRoutes3.framework"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "UIKit", "Foundation"
+  s.frameworks = "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -135,6 +135,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "AFNetworking", "~> 3.0"
 
 end
