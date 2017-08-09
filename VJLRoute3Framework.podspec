@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  framework
+  VJLRoute3Framework
                    DESC
 
   s.homepage     = "https://github.com/lchenc3/VJLRoutes3Framework"
@@ -92,10 +92,10 @@ Pod::Spec.new do |s|
   #
 
   #需要包含的源文件 
-  s.source_files  = "VJLRoutes3.framework/Headers/*.{h}"
+  #s.source_files  = "VJLRoutes3.framework/Headers/*.{h}"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "VJLRoutes3.framework/Headers/*.{h}"
+  #s.public_header_files = "VJLRoutes3.framework/Headers/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "VJLRoutes3.framework/Resources/*.png"
+  s.resources = "VJLRoutes3.framework/Resources/*"
   s.vendored_frameworks = "VJLRoutes3.framework"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
